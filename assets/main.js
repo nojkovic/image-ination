@@ -1,6 +1,7 @@
 var url = window.location.pathname;
 var url2 = window.location;
-
+  console.log(url);
+  console.log(url2);
 var navigacija=document.getElementById("navigacija");
 let linkovi=["Home","Photographers","Gallery","About us","Contact","Author"];
 let putanje=["index.html","photograph.html","gallerys.html","about.html","contact.html","author.html"];
@@ -26,7 +27,7 @@ if(url=="/image-ination/" || url=="/image-ination/index.html" || url2 == "file:/
 
 
 if(url=="/image-ination/gallerys.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/gallerys.html" || url2 == "file:///C:/Users/Sara/Desktop/sajtSara(2)/site-Sara/gallerys.html#"){
-    console.log(url);
+  
     window.addEventListener('load',slider);
     
     var objLevo=document.getElementById("levoGalerija");
