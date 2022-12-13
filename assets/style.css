@@ -1,0 +1,610 @@
+*{
+    padding:0px;
+    margin:0px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;/*obican */
+    background-color: #e8ded5;
+    scroll-behavior: smooth;
+}
+
+#navigacija ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+#navigacija ul li{
+    list-style-type: none;
+}
+#navigacija ul {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+#navigacija{
+    width: 90%;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+    /* background-color: #c7b7a9; */
+    
+    background-color:#e6d7ca;
+}
+
+#wrapper{
+    width: 100%;
+}
+
+.sirina90posto{
+    width: 90%;
+    margin:60px auto;
+    display: flex;
+    background-color: #d6c3b2;
+}
+#gore{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#levo{
+    width: 50%;
+    height: 500px;
+}
+#desno10{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+      
+}
+#slika1{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+#slika1 img{
+    width: 90%;
+    height: 90%;
+    padding: 30px;
+}
+#text1 h2{
+    position: absolute;
+    z-index: 1;
+    margin-top: 5%;
+    color: black;
+    font-size: 35px;
+    margin-left: 2%; 
+    font-family: 'Indie Flower', cursive; /*cursive*/
+}
+#levo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#slika{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    transform: rotate(30deg);
+    margin-left: 100px;
+}
+#slika img{
+    width: 90%;
+    height: 90%;
+    padding: 30px;
+}
+
+#text{
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    color: black;
+    font-size: 20px;
+    width: 250px;
+    margin-right: 150px;
+    font-family: 'Indie Flower', cursive; /*cursive*/
+}
+#reg2{
+    height: 60px;
+    margin-top:3%;
+}
+#categorije ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.5%;
+    
+}
+#categorije ul li a{
+    text-decoration: none;
+    
+}
+#categorije ul li{
+    list-style-type: none;
+    border-style: inset;
+}
+#reg3{
+    
+    margin-top:3%;
+    display: flex;
+}
+#reg3 img{
+    width: 280px;
+   
+}
+#desno{
+    width: 50%;
+}
+#desno1 img{
+    z-index: 1;
+    margin-right:10px ;
+    margin-top: 40%;
+    margin-right: 30%;
+}
+#text2{
+    margin-left:65%;
+    margin-top:-17%;
+    font-family: 'Indie Flower', cursive; /*cursive*/
+}
+#desno2{
+    display: flex;
+}
+#desno2 img{
+    width: 280px;
+    height: 380px;
+    margin-left: 74%;
+}
+
+#l{
+   margin-top: 20%;
+}
+#l h3{
+    margin-left: 34%;
+    font-family: 'Indie Flower', cursive; /*cursive*/
+    position: absolute;
+    z-index: 1;
+    margin-top: -5%;
+}
+#reg4{
+    margin-top:3%;
+    display: flex;
+    height: 100%;
+}
+#dev1 img{
+    width: 300px;
+    margin-left:25%;
+    margin-top: 7%;
+}
+#dec1{
+    display: block;
+    margin-left:20%;
+    margin-top:2%;
+}
+#dec1 img{
+    width: 270px;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+#dev2 img{
+    width: 300px;
+    margin-left:45%;
+}
+#dev2{
+    margin-top: 2%;
+}
+#reg5{
+    /* height: 500px; */
+    height: 100%;
+}
+#levo3{
+    display: flex;
+}
+#levo3 img{
+    width: 270px;
+    margin-top: 1%;
+    margin-left: 6%;
+}
+.dole{
+    margin-top: 17%;
+}
+#desno3{
+    font-family: 'Indie Flower', cursive; /*cursive*/
+   margin:200px auto;
+}
+#desno4{
+    display: flex;
+}
+#desno4 img{
+    width: 300px;
+}
+#jedan{
+    margin-top: 2%;
+}
+#dva{
+    margin-top: 6%;
+}
+#tri{
+    margin-top: 10%;
+}
+#levo4{
+    margin-top: 15%;
+    width: 350px;
+    padding-left: 3%;
+    font-family: 'Indie Flower', cursive; /*cursive*/
+}
+#reg7{
+    /* height: 400px; */
+    height: 100%;
+    display: flex;
+}
+#levaS{
+    width: 30%;
+}
+#desnaS{
+    width: 30%;
+}
+#levaS img{
+    width: 60%;
+    margin:5%;
+    margin-left: 45%;
+}
+#desnaS img{
+    width: 70%;
+    margin:13%;
+}
+#sredina{
+    width: 20%;
+    margin-top:10%;
+    margin-left:13%;
+    font-family: 'Indie Flower', cursive; /*cursive*/
+}
+footer{
+    padding-bottom: 20px;
+    background-color:#e6d7ca;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#krug{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0px auto;
+    background-color: aqua;
+    margin-bottom: -50px;
+    z-index: 10;
+    position: relative;
+    background-color: #d6c3b2;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+ 
+}
+
+#krug i{
+    color: white;
+    font-size: 65px;
+}
+a{
+    text-decoration: none;
+}
+#lista-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 350px;
+    margin-top: 100px;
+}
+
+#lista-footer li{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    list-style:none;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lista-footer a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#lista-footer a{
+    text-decoration: none;
+    color: white;
+}
+#lista-footer2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+#lista-footer2 li {
+    text-decoration: none;
+    margin: 30px 10px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+
+
+/* Photograph */
+#tekstNaslov{
+    margin-top:5%;
+    margin-left:35%;
+    color: aliceblue;
+    font-family: 'Indie Flower', cursive; /*cursive*/
+}
+#reg8{
+    /* height: 400px; */
+    height: 100%;
+}
+.levoText{
+    font-size: 29px;
+    border-left: 1px solid;
+    width: 300px;
+    margin-left:15%;
+    padding-top:8%;
+}
+.slikaSredina img{
+    width: 250px;
+    background-color: #e8ded5;
+    margin-left:12%;
+    margin-top:3%;
+
+}
+.desnoText{
+    border-right: 1px solid;
+    width: 300px;
+    margin-left:7%;
+    font-size: 29px;
+    padding-top:5%;
+}
+/* about us */
+    
+#reg13{
+    width: 90%;
+    background-color: antiquewhite;
+    height: fit-content;
+    background-image: url("../image/pozadina.jpg");
+    padding-bottom: 100px;
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+}
+
+.levoPonuda{
+    
+    margin-left:8%;
+    margin-top:7%;
+    font-size: 26px;
+    border-bottom: 1px solid;
+    border-left:1px solid;
+    color:#fff;
+}
+.desnoPonuda{
+ 
+    border-bottom: 1px solid;
+    margin-left:15%;
+    border-right:1px solid;
+    margin-top:7%;
+    color:#fff;
+    font-size: 26px;
+}
+#kocka{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    display: none;
+}
+#kocka img{
+    width: 45px;
+}
+.block{
+    display: block !important;
+}
+
+
+/* Gallery */
+#levoGalerija{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.red{
+    width: 100%;
+    display: flex;
+    height: 30%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.slik{
+    width: 25%;
+}
+.slik img{
+    width: 100%;
+    height: 100%;
+}
+
+#reg55{
+    background-color: #d6c3b2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+  
+}
+#reg55 #desnoSlider{
+    width: 40%;
+}
+
+.slika{
+    display: none;
+}
+.active{
+    display: block !important;
+    height: 100%;
+}
+#desnoSlider img{
+    width: 100%;
+    display: none;
+}
+
+#kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#kontakt p{
+    margin: 0px auto;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+}
+.row{
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.deo{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+}
+input[type="mail"]{
+    width: 100%;
+    height: 40px;
+}
+input[type="radio"]{
+    margin-top: 15px;
+}
+form{
+    width: 100%;
+    margin: 0px auto;
+}
+.izuzetak{
+    flex-direction: row !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+select{
+    width: 100%;
+    height: 40px;
+}
+#sl{
+    width: 70%;
+   
+}
+#chcBox{
+    float: left;
+}
+.row1{
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+textarea{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+#tx{
+    margin-top: 20px;
+}
+.greska{
+    color: rgb(202, 88, 88);
+    font-size: 20px !important;
+}
+.greskaCrveno{
+    background-color: rgb(210, 103, 103);
+   
+}
+#posalji{
+    width: 100px;
+    margin-bottom: 1%;
+    background-color: #d6c3b2;
+}
+#posalji:hover{
+    background-color: rgb(137, 214, 188);
+}
+#res{
+    width: 100px;
+    margin-bottom: 1%;
+    background-color: #d6c3b2;
+}
+#res:hover{
+    background-color: rgb(210, 103, 103);
+}
+#uspelo{
+    color: rgb(127,255,212);;
+}
+
+/* author */
+#author{
+    display: flex;
+    height: auto;
+    
+}
+#pictL img{
+    width: 50%;
+    margin:5% 0;
+    margin-left: 35%;
+}
+#textD{
+    font-size: 25px;
+    margin:17% 0;
+    margin-right: 15%;
+    width: 750px;
+    font-family: 'Indie Flower', cursive; /*cursive*/
+}

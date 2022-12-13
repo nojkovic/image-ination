@@ -1,0 +1,592 @@
+@media screen and (max-width:1024px) {
+    #reg13{
+        height: 700px;
+    }
+    #reg3{
+        display: block;
+    }
+    #desno1 img {
+        margin-top: 10px;
+    }
+    #dev1 img {
+        width: 250px;
+        margin-left:10%;
+        margin-top:18%;
+    }
+    #slika1 img {
+        height: 90%;
+        
+    }
+    
+    #slika1 {
+        width: 60%;
+        height: 65%;
+        margin-right: 50px;
+        margin-top: 60px;
+        margin-top:30%;
+    }
+    #text1 h2 {
+        margin-top: 11%;
+    }
+    #levo1 img{
+        position: absolute;
+    }
+    #desno1 img {
+        position:relative;
+        z-index: 1;
+        margin-left: 30%;
+        margin-top:10%;
+    }
+    #desno2 img {
+        margin-left: 94%;
+    }
+    #dec1{
+        margin-left:12%;
+        margin-top:10%;
+    }
+    #dec1 img{
+        width: 200px;
+    }
+    #dev2 img{
+        width: 250px;
+        margin-left:28%;
+    }
+    #dev2{
+        margin-top: 5%;
+    }
+    #desno4 img{
+        width: 200px;
+    }
+    #levaS img{
+        width: 80%;
+        margin:10%;
+        margin-left: 25%;
+    }
+    #desnaS img{
+        width: 90%;
+        margin-top:25%;
+        margin-left:4%;
+    }
+    #sredina{
+        width: 30%;
+        margin-top:15%;
+        margin-left:9%;
+    }
+    /* photographers */
+    .levoText {
+        font-size: 29px;
+        width: 270px;
+        margin-left: 4%;
+        padding-top: 13%;
+    }
+    .desnoText {
+        width: 270px;
+        margin-left: 7%;
+    }
+    /* about us */
+    .levoPonuda {
+        margin-left: 6%;
+        margin-top: 10%;
+        font-size: 24px;
+    }
+    .desnoPonuda {
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 3%;
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:769px){  
+    #reg55{
+        flex-direction: column;
+        align-items: center;
+    }
+    #reg55 #desnoSlider{
+        width: 90%;
+    }
+    #levoGalerija{
+        width: 90%;
+        padding-right: 30px;
+    }
+    header{
+        flex-direction: column;
+       
+    }
+    #slika1 img {
+        height: 90%;
+    }
+    #slika1 {
+        width: 70%;
+    }
+    #desno10{
+        margin-left:30%;
+    }
+    #desno2 img {
+        width: 250px;
+        height: 380px;
+        margin-left: 74%;
+    }
+    #navigacija ul li{
+        text-align: center;
+        padding-top:1%;
+    }
+   #navigacija{
+    margin-right:10%;
+
+   }
+    #navigacija ul{
+        z-index: 100;
+        padding: 20px 0px;
+        margin-top: 1.5%;
+        flex-direction:row;
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        background-color: #e8ded5;
+        display: none; 
+    } 
+    #kocka{
+        display: block;
+    }
+    #krug{
+        width: 70px;
+        height: 70px;
+    }
+    #gore{
+        display: block;
+    }
+    #levo{
+        width: 80%;
+    }
+    #desno{
+        width: 100%;
+        padding-bottom:7%;
+        padding-left:5%;
+    }
+    #levo1 img{
+        width: 30%;
+    }
+    #desno1 img {
+        width: 30%;
+    }
+    #desno4 {
+        display: flex;
+        margin-left:13%;
+    }
+   
+    #dev1 img {
+        width: 200px;
+        margin-left:7%;
+        margin-top:38%;
+    }
+    #dec1{
+        margin-left:9%;
+        margin-top:18%;
+    }
+    #dec1 img{
+        width: 180px;
+    }
+    #dev2 img{
+        width: 200px;
+        margin-left:20%;
+    }
+    #dev2{
+        margin-top: 12%;
+    }
+    #reg5{
+        display: block;
+    }
+    #levo3 img{
+        width: 180px;
+        margin-top: 3%;
+        margin-left: 30%;
+    }
+    .dole{
+        margin-top: 17%;
+    }
+    #desno3{
+       margin:5%;
+    }
+    #desno4 img{
+        width: 170px;
+    }
+    #jedan{
+        margin-top: 3%;
+    }
+    #dva{
+        margin-top: 7%;
+    }
+    #tri{
+        margin-top: 11%;
+    }
+    #levo4{
+        margin-top: 5%;
+        width: 350px;
+        padding-left: 3%;
+        font-size: 15px;
+    }
+    /* photographers */
+    .levoText {
+        font-size: 26px;
+        width: 200px;
+        margin-left: 15%;
+        padding-top: 5%;
+    }
+    .desnoText {
+        width: 290px;
+        margin-left: 40%;
+        padding-bottom: 5%;
+        font-size: 25px;
+    }
+    .slikaSredina img {
+        width: 270px;
+        background-color: #e8ded5;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
+    /* about us */
+    
+    .sirina90posto {
+        display: block;
+    }
+    .levoPonuda {
+        background-color: #d6c3b2;
+        margin-left: 0%;
+        margin-top:13%;
+    }
+    .desnoPonuda {
+        margin-left: 0%;
+        margin-top: 45.5%;
+        font-size: 22px;
+        background-color: #d6c3b2;
+        width: 90%;
+    }
+    /* author */
+    #pictL img {
+        margin-top:25%;
+    }
+}
+@media screen and (max-width:426px){
+
+    .row{
+        flex-direction: column;
+    }
+    .deo{
+        width: 100%;
+    }
+    .row1{
+        flex-direction: column;
+        
+    }
+    #text2 h3{
+        position: absolute;
+        z-index: 2;
+        margin-top:-10%;
+    }
+    #slika1 img {
+        width:200px;
+        height: 300px;
+       
+    }
+    #slika1 {
+        width: 300px;
+        
+    }
+    #text1 h2{
+        margin-top:6%;
+    }
+    #desno10{
+        margin-left:30%;
+    }
+    #desno1 img {
+        width: 40%;
+    }
+    #desno2 img {
+        width: 120px;
+        height: 250px;
+        margin-left: 74%;
+        margin-top:20%;
+    }
+    .row1 div{
+        display: flex;
+        justify-content: center;
+    }
+    #sel{
+        width: 100%;
+    }
+    #categorije{
+        width: 70%;
+        margin-left:15%;
+    }
+    .izuzetak{
+        display: flex;
+        flex-direction: column !important;
+    }
+    #lista-footer{
+        width: 300px;
+    }
+    #lista-footer2{
+        flex-direction: column;
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+    #text {
+        width: 200px;
+    }
+    #slika img {
+        width: 200px;
+        height: 300px;
+    }
+    #slika {
+        width: 300px;
+        height: 360px;
+    }
+    #desno2 img {
+        width: 180px;
+        margin-left: 10%;
+    }
+    #reg4 {
+        margin-top: 3%;
+        display: block;
+        height: 100%;
+    }
+    #dev1 img {
+        width: 220px;
+        margin-left: 20%;
+        margin-top: 18%;
+    }
+    #dec1 {
+        margin-left: 22%;
+        margin-top: 15%;
+    }
+    #dec1 img {
+        width: 200px;
+    }
+    #dev2 img {
+        width: 220px;
+        margin-left: 20%;
+        margin-bottom: 7%;
+    }
+    #levo3 img {
+        width: 150px;
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+    #desno4 img {
+        width: 90px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    
+    #sredina {
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 9%;
+    }
+    /* photographers */
+    .sirina90posto {
+        display: block;
+    }
+    .levoText {
+        font-size: 24px;
+        margin-left: 25%;
+        padding-top: 13%;
+    }
+    .desnoText {
+        width: 290px;
+        margin-left: 20%;
+        padding-bottom: 9%;
+        font-size: 20px;
+    }
+    .slikaSredina img {
+        width: 180px;
+        background-color: #e8ded5;
+        margin-left: 28% ;
+        margin-top: 3%;
+        
+    }
+    
+    /* about us */
+    .levoPonuda {
+        margin-left: -1%;
+        font-size: 18px;
+    }
+    .desnoPonuda {
+        margin-left: 1%;
+        margin-top: 56%;
+        font-size: 17px;
+    }
+    /* author */
+    #author{
+        display: block;
+    }
+    #pictL img {
+        margin-left: 23%;
+    }
+    #textD {
+        font-size: 27px;
+        margin-left: 5%;
+        padding-bottom: 5%;
+        width: 200px;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width:376px){
+    #desno2 img {
+        width: 160px;
+        margin-left: 10%;
+    }
+    #categorije{
+        width: 30%;
+        margin-left:38%;
+    }
+    #text h1 {
+        font-size: 21px;
+        width: 80px;
+        margin-left:35%;
+    }
+    /* photographers */
+    .desnoText {
+        margin-left: 10%;
+        font-size: 18px;
+    }
+    .slikaSredina img {
+        margin-left: 23% ;
+        
+    }
+    /* about us */
+    .levoPonuda {
+        margin-left: 0%;
+        font-size: 17px;
+        height: auto;
+        padding-top:4%;
+    }
+    .desnoPonuda {
+        margin-left: -0.5%;
+        margin-top: 70%;
+        font-size: 18px;
+        height: auto;
+    }
+    /* author */
+    #textD {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:321px){
+    #text {
+        width: 20px;
+    }
+    #categorije{
+        display: none;
+    }
+    #slika1 img {
+        width:210px;
+        height: 270px;
+       
+    }
+    #text2 h3{
+        margin-top:-17%;
+        margin-right: 5%;
+    }
+    #l h3{
+        margin-top:-17%;
+    }
+    #desno4 {
+        margin-left: 3%;
+    }
+    #slika {
+        width: 200px;
+        height: 350px;
+        transform: rotate(20deg);
+    }
+    #slika img{
+        width: 170px;
+        height: 300px;
+    }
+    h1{
+        font-size: 18px;
+       
+    }
+    #desno10 {
+        margin-left: 35%;
+    }
+    #text1 h2 {
+        margin-top: 10px;
+        font-size: 23px;
+    }
+    #desno {
+        padding-bottom: 2px;
+    }
+    #desno2 img {
+        width: 120px;
+        height: 180px;
+        margin-left: 7%;
+    }
+    #dev1 img {
+        width: 200px;
+        margin-left: 15%;
+    }
+    #dec1 img {
+        width: 180px;
+    }
+    #dev2 img {
+        width: 200px;
+        margin-left: 15%;
+    }
+    #levo3 img {
+        width: 130px;
+        margin-top: 3%;
+        margin-left: 7%;
+    }
+    h1 {
+        font-size: 11px;
+        
+    }
+    h4 {
+        /* font-size: 9px; */
+        display: none;
+    }
+    #levaS img {
+        width: 100px;
+        margin: 10%;
+        margin-left: 5%;
+    }
+    #desnaS img {
+        width: 100px;
+        margin-top: 25%;
+        margin-left: -9px;
+    }
+    h2{
+        font-size: 13px;
+    }
+    /* photographers */
+    .levoText {
+        font-size: 18px;
+        margin-left: 17%;
+        padding-top: 8%;
+    }
+    .desnoText {
+        width: 260px;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .slikaSredina img {
+        margin-left: 18%;
+    }
+    /* about us */
+    .levoPonuda {
+        margin-left: 0%;
+    }
+    .desnoPonuda {
+        margin-left: 0%;
+    }
+      /* author */
+    
+     #textD {
+        font-size: 21px;
+    }
+}

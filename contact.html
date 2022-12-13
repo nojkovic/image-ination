@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image/ination</title>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+       <meta name="viewport" content="width=device-width,intial-scale=1"/>
+       <link rel="icon" type="image/x-icon" href="image/favicon.png">
+       <!-- Google fonts-->
+       <link rel="preconnect" href="https://fonts.googleapis.com"/>
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+       <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Quicksand:wght@300;500&family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet"/>
+       <!--Template CSS-->
+       <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+       <link rel="stylesheet" type="text/css" href="./assets/responsive.css"/>
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+   </head>
+    <body>
+        
+        <div id="wrapper">
+            <header>
+                <div id="kocka"><img src="./image/menu.png"/></div><nav id="navigacija"></nav>
+            </header>
+        <form action="obrada.php" id="form" name="form">
+            <div class="sirina90posto" id="kontakt">
+                
+                <div class="row ptag"><p>If you want to make an appointment for a photo-shoot,you can contact us using the form you see here!</p></div>
+                <div class="row">
+                    <div class="deo">
+                        <label for="ime">Name:</label>
+                        <input id="ime" type="text"/>
+                        <p class="greska"></p>
+                    </div>
+                    <div class="deo">
+                        <label for="prezime">Last Name:</label>
+                        <input id="prezime" type="text"/>
+                        <p class="greska"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="deo">
+                        <label for="mail">Email:</label>
+                        <input id="mail" type="mail"/>
+                        <p class="greska"></p>
+                    </div>
+                    <div class="deo izuzetak">
+                        <div>
+                            <label>Gender:</label><br/>
+                            <div>
+                                <input id="m" value="m" name="rb" type="radio"/>&nbsp;<label for="m">Male</label>
+                                <input id="f" value="f" name="rb" type="radio"/>&nbsp;<label for="f">Female</label>
+                            </div>
+                            <p class="greska"></p>
+                        </div>
+                        <div id="sl">
+                            <label for="sel">Select your city:</label>
+                            <select name="sel" id="sel">
+                                <option hidden value="0">Select city</option>
+                                <option value="1">Belgrade</option>
+                                <option value="2">Bujanovac</option>
+                                <option value="3">Sopot</option>
+                                <option value="4">Mladenovac</option>
+                                <option value="5">Novi Sad</option>
+                            </select>
+                            <p class="greska"></p>
+                        </div>
+                    </div>
+                </div>
+                <div><label for="c">CATEGORY!</label></div>
+
+                <div class="row1">
+                    <div><input id="ck0" name="ckbx" type="checkbox">&nbsp;<label for="m">Couples</label></div>
+                    <div><input id="ck1" name="ckbx" type="checkbox">&nbsp;<label for="m">Portrets</label></div>
+                    <div><input id="ck2" name="ckbx" type="checkbox">&nbsp;<label for="m">Birthday</label></div>
+                    <div><input id="ck3" name="ckbx" type="checkbox">&nbsp;<label for="m">Wedding</label></div>
+                    <div><input id="ck4" name="ckbx" type="checkbox">&nbsp;<label for="m">Artist</label></div>
+                </div>
+                <p class="greska"></p>
+                <label id="tx" for="t">Message:</label>
+                <textarea name="t" id="t" cols="30" rows="10"></textarea>
+                
+                <button id="posalji" type="button">SEND</button>
+                <button id="res" type="reset">RESET</button>
+                <p id="uspelo"></p>
+            </div>
+  </form>
+
+        </div>
+        
+        <a href="#"><div id="krug"><i class="zmdi zmdi-chevron-up"></i></div></a>
+        <footer>
+            <ul id="lista-footer"></ul>
+            <ul id="lista-footer2"></ul>
+            <p>&copy; Copyright by Sara Nojkovic 2022</p>
+        </footer>
+        <script type="text/javaScript" src="./assets/main.js"></script>
+    </body>
+</html>
